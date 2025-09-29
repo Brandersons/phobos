@@ -75,7 +75,7 @@ class phobos_vehicles_mh6m : RHS_MELB_MH6M
     editorSubcategory = "phobos_faction_edsubcat_helicopters";
     crew = "B_Soldier_F";
     typicalCargo[] = {"B_Soldier_F"};
-    editorPreview = "rhsusf\addons\rhsusf_editorPreviews\data\rhs_MELB_AH6M.paa";
+    editorPreview = "rhsusf\addons\rhsusf_editorPreviews\data\rhs_MELB_MH6M.paa";
     icon = "rhsusf\addons\rhsusf_melb\Data\ui\map_melb_ah_6m_l_ca.paa";
     scope = 2;
     scopeCurator = 2;

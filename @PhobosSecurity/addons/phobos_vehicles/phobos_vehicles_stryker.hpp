@@ -231,7 +231,7 @@ class phobos_vehicles_stryker_atgm : rhsusf_stryker_m1134_wd
     author = "Brandersons";
     faction = "phobos_faction";
     side = 1;
-    editorSubcategory = "phobos_faction_edsubcat_apc";
+    editorSubcategory = "phobos_faction_edsubcat_tanks";
     crew = "B_Soldier_F";
     typicalCargo[] = {"B_Soldier_F"};
     editorPreview = "rhsusf\addons\rhsusf_editorPreviews\data\rhsusf_stryker_m1134_wd.paa";

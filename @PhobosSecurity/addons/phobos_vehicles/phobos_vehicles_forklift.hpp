@@ -9,7 +9,7 @@ class phobos_vehicles_forklift : UK3CB_C_Forklift
     editorSubcategory = "phobos_faction_edsubcat_utility";
     crew = "B_Soldier_F";
     typicalCargo[] = {"B_Soldier_F"};
-    editorpreview = "\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\armour\UK3CB_Factions_Vehicles_M270\data\ui\UK3CB_DES_M270_Avenger.jpg";
+    editorPreview = "UK3CB_Factions\addons\UK3CB_Factions_Vehicles\wheeled\UK3CB_Factions_Vehicles_Forklift\data\ui\UK3CB_C_Forklift.jpg";
     icon = "\UK3CB_Factions\addons\UK3CB_Factions_Vehicles\armour\UK3CB_Factions_Vehicles_M270\data\ui\icomap_m270_ca.paa";
     scope = 2;
     scopeCurator = 2;
