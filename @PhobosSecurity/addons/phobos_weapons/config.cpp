@@ -6,13 +6,12 @@ class CfgPatches
         units[] = {};
         weapons[] =
         {
-            "phobos_weapons_p90_black",
-            "phobos_weapons_p90_khaki",
-            "phobos_weapons_p90_bt"
+            "phobos_weapons_p90_black"
         };
         magazines[] =
         {
-            "phobos_mag_570x28_ss190"
+            "phobos_mag_57x28_ss190",
+            "phobos_mag_57x28_ss190_t"
         };
         requiredVersion = 0.1;
         addonRootClass = "phobos_core";
@@ -64,7 +63,7 @@ class cfgMagazines
     class 50Rnd_570x28_SMG_03;
     class phobos_mag_57x28_ss190 : 50Rnd_570x28_SMG_03
     {
-        ammo = "phobos_ammo_570x28_ss19";
+        ammo = "phobos_ammo_57x28_ss190";
         count = 50;
         displayName = "5.7mm 50Rnd Mag";
         descriptionShort = "Caliber: 5.7mm<br />Rounds: 50<br />Used in: P90";
@@ -72,6 +71,18 @@ class cfgMagazines
         mass = 11;
         picture = "\a3\weapons_f_mod\data\m_adr97mag_ca.paa";
         tracersEvery = 0;
+        lastRoundsTracer = 5;
+    };
+    class phobos_mag_57x28_ss190_t : 50Rnd_570x28_SMG_03
+    {
+        ammo = "phobos_ammo_570x28_ss190";
+        count = 50;
+        displayName = "5.7mm 50Rnd Mag (TE4)";
+        descriptionShort = "Caliber: 5.7mm<br />Rounds: 50<br />Used in: P90";
+        initSpeed = 716;
+        mass = 11;
+        picture = "\a3\weapons_f_mod\data\m_adr97mag_ca.paa";
+        tracersEvery = 4;
         lastRoundsTracer = 5;
     };
 };
@@ -89,6 +100,11 @@ class cfgWeapons
         hiddenSelectionsTextures[] = {"a3\weapons_f_mod\smgs\smg_03\data\body_black_co.paa"};
         model = "\A3\Weapons_F_Mod\SMGs\SMG_03\SMG_03C_TR.p3d";
         picture = "\A3\Weapons_F_Mod\SMGs\SMG_03\data\UI\gear_adr97_c_tr_black_ca.paa";
+        magazines[] =
+        {
+            "phobos_mag_57x28_ss190",
+            "phobos_mag_57x28_ss190_t"
+        };
         class WeaponSlotsInfo
         {
             mass = 56;
@@ -181,31 +197,14 @@ class cfgWeapons
             };
         };
     };
-    class phobos_weapons_p90_black : phobos_weapons_p90_base
+    class phobos_weapons_p90_black: phobos_weapons_p90_base
     {
         author = "Brandersons";
-        displayName = "[Phobos] P90 (Black)";
-        hiddenSelections[] = {"camo"};
-        hiddenSelectionsTextures[] = {"\A3\Weapons_F_Mod\SMGs\SMG_03\data\body_camo_co.paa"};
-        scope = 2;
-        scopeCurator = 2;
-    };
-    class phobos_weapons_p90_khaki : phobos_weapons_p90_base
-    {
-        author = "Brandersons";
-        displayName = "[Phobos] P90 (Khaki)";
-        hiddenSelections[] = {"camo"};
-        hiddenSelectionsTextures[] = {"a3\weapons_f_mod\smgs\smg_03\data\body_khaki_co.paa"};
-        scope = 2;
-        scopeCurator = 2;
-    };
-    class phobos_weapons_p90_bt : phobos_weapons_p90_base
-    {
-        author = "Brandersons";
-        displayName = "[Phobos] P90 (Khaki)";
+        displayName = "[Phobos] P90";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\phobos_weapons\data\test.paa"};
         scope = 2;
+        scopeArsenal=2;
         scopeCurator = 2;
     };
 };
