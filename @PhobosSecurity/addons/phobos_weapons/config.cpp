@@ -15,13 +15,18 @@ class CfgPatches
         };
         requiredVersion = 0.1;
         addonRootClass = "phobos_core";
-        requiredAddons[] = {};
+        requiredAddons[] =
+        {
+            "A3_Weapons_F_Mod",
+            "cba_main",
+            "phobos_core"
+        };
     };
 };
 
 class cfgAmmo
 {
-    #include "phobos_weapons_ammo_57x28.hpp"
+    //#include "phobos_weapons_ammo_57x28.hpp"
     class B_570x28_Ball;
     class phobos_ammo_57x28_ss190 : B_570x28_Ball
     {
@@ -89,12 +94,13 @@ class cfgMagazines
 
 class cfgWeapons
 {
-    class SMG_03C_BASE;
-    class phobos_weapons_p90_base: SMG_03C_BASE
+    class SMG_03C_TR_black;
+    class phobos_weapons_p90_base: SMG_03C_TR_black
     {
         author = "Bohemia Interactive";
         displayName = "[Phobos] P90 (Base)";
         scope = 1;
+        scopeArsenal=1;
         scopeCurator = 1;
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"a3\weapons_f_mod\smgs\smg_03\data\body_black_co.paa"};
