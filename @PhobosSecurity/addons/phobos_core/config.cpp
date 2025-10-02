@@ -67,9 +67,9 @@ class CfgEditorSubcategories
     {
         displayName = "[Phobos] Cars (Overt)";
     };
-    class phobos_faction_edsubcat_drone
+    class phobos_faction_edsubcat_drones
     {
-        displayName = "[Phobos] Droness";
+        displayName = "[Phobos] Drones";
     };
     class phobos_faction_edsubcat_helicopters
     {

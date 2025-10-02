@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="DJI_Mavic">
+    <Package name="DJI_Mavic">
+        <Container name="DJI_Mavic_container">
+            <Key ID="STR_Mavic_Author">
+                <Original>Mavic 3 MOD Team</Original>
+                <Japanese>Mavic 3 MOD チーム</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_MOD">
+                <Original>Mavic Settings</Original>
+                <Japanese>Mavic 設定</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_Category_Interface">
+                <Original>Interface</Original>
+                <Japanese>インタフェース</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_Category_Options">
+                <Original>Options</Original>
+                <Japanese>オプション</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_showInterface_displayName">
+                <Original>Show Interface</Original>
+                <Japanese>インタフェースを表示</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_showInterface_description">
+                <Original>Show/Hide Mavic HUD Interface.</Original>
+                <Japanese>MavicのHUDインタフェースを表示/非表示します。</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_vanillaInterface_displayName">
+                <Original>Use Vanilla Interface</Original>
+                <Japanese>ゲーム標準のインタフェースを使用</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_vanillaInterface_description">
+                <Original>Use vanilla UAV interface instead of the Mavic HUD.</Original>
+                <Japanese>Mavic用HUDの代わりにゲーム標準のUAVインタフェースを使用します。</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_hudHeading_displayName">
+                <Original>Show Heading</Original>
+                <Japanese>方位を表示</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_hudHeading_description">
+                <Original>Shown heading azimuth instead of the vertical speed on HUD.</Original>
+                <Japanese>垂直速度の代わりに現在の方位角をHUDに表示します。</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_hudHSpeedUnit_displayName">
+                <Original>Vertical Speed​​ Units</Original>
+                <Japanese>垂直速度の単位</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_hudHSpeedUnit_description">
+                <Original>Select the units of vertical speed, such as ascent or descent.</Original>
+                <Japanese>上昇や下降などの垂直速度の単位を選択します。</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_hudVSpeedUnit_displayName">
+                <Original>Movement Speed Units</Original>
+                <Japanese>移動速度の単位</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_hudVSpeedUnit_description">
+                <Original>Select the unit of speed for movement.</Original>
+                <Japanese>移動時の速度の単位を選択します。</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_hudHeightUnit_displayName">
+                <Original>Height​​ Units</Original>
+                <Japanese>高度の単位</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_hudHeightUnit_description">
+                <Original>Select the altitude unit.</Original>
+                <Japanese>高度の単位を選択します。</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_hudDistanceUnit_displayName">
+                <Original>Distance Units</Original>
+                <Japanese>距離の単位</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_hudDistanceUnit_description">
+                <Original>Select the distance unit.</Original>
+                <Japanese>距離の単位を選択します。</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_hudCrosshair_displayName">
+                <Original>Crosshair</Original>
+                <Japanese>クロスヘア</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_hudCrosshair_description">
+                <Original>Change the crosshair that appears in the center of the Mavic HUD.</Original>
+                <Japanese>MavicのHUD中央部に表示されるクロスヘアを変更します。</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_hudCrosshair_0">
+                <Original>None</Original>
+                <Japanese>非表示</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_hudCrosshair_1">
+                <Original>Cross (Realistic)</Original>
+                <Japanese>十字 (現実的)</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_hudCrosshair_2">
+                <Original>Diagonal (Edited)</Original>
+                <Japanese>斜め十字 (Edited)</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_hudCrosshair_3">
+                <Original>Big (Original)</Original>
+                <Japanese>大きな十字 (オリジナル)</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_enableConnectionDistance_displayName">
+                <Original>Enable Distance Limit</Original>
+                <Japanese>距離制限を有効化</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_enableConnectionDistance_description">
+                <Original>When enabled, Mavic will become uncontrollable if the distance limit is exceeded.</Original>
+                <Japanese>有効化すると、制限距離を超えた際にMavicの操作が不能になります。</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_maxConnectionDistance_displayName">
+                <Original>Maximum Distance Limit</Original>
+                <Japanese>最大距離制限</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_maxConnectionDistance_description">
+                <Original>Defines the distance at which you can control your Mavic.\nIf exceed limit, Mavic will become uncontrollable.\nThis distance may be reduced by factors such as buildings and terrain.</Original>
+                <Japanese>どのくらいの距離まで離れても操作できるかを定義します。\nこの制限距離を超えた際にMavicの操作が不能になります。\nこの距離は建物や地形などの影響を受けて短くなる可能性があります。</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_lightAllowed_displayName">
+                <Original>Use bottom Light (Experimental)</Original>
+                <Japanese>底部ライトを使用する (試験的)</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_lightAllowed_description">
+                <Original>If enabled, When you press the grenade drop key, will actually lights up the bottom auxiliary light.\n!!!Caution!!! Enabling this may affect(bug) the AI ​​autopilot doing increasing altitude continuously.</Original>
+                <Japanese>有効化すると、グレネード投下キーを押したとき、底部補助ライトを実際に点灯します。\n!!!注意!!! これを有効化するとAI操縦時に高度を上げ続けるなどの影響(バグ)が出る可能性があります。</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_landingProtection_displayName">
+                <Original>Takeoff Protection</Original>
+                <Japanese>離陸時保護機能</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Setting_landingProtection_description">
+                <Original>If enabled, prevent accidental damage to the Mavic when takeoff and landing.</Original>
+                <Japanese>有効化すると、Mavic離陸時及び着陸時の不測の損傷を防止します。</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Key_dropKey_displayName">
+                <Original>Grenade Drop / Turn Bottom light</Original>
+                <Japanese>グレネード投下/底部ライト点灯消灯</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Key_dropKey_description">
+                <Original>Used to drop the attached grenades from Mavic.\nIt is also used to switch the bottom auxiliary light.</Original>
+                <Japanese>Mavicに取り付けた手榴弾を投下するために使用。\n底部補助ライトを点灯消灯させるのにも使用します。</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Key_dropOnlyKey_displayName">
+                <Original>Grenade Drop (No Light)</Original>
+                <Japanese>グレネード投下 (ライトなし)</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Key_dropOnlyKey_description">
+                <Original>Used to drop the attached grenades from Mavic.\nHowever, this is not realistic (Mavic uses a light signal to send a grenade drop command)\nAlso, even if the light does not switched, the light turn on and off message will be displayed at the time of drop as an indicator.</Original>
+                <Japanese>Mavicに取り付けた手榴弾を投下するために使用。\nしかし、これは現実的ではありません (Mavicはライトのための信号を使用して手榴弾投下コマンドを送信します)\nまた、ライトが点灯しない場合でも、投下時にはそのインジケーターとして照明をオンオフしたというメッセージが表示されます。</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Key_lightOnlyKey_displayName">
+                <Original>Turn Bottom light (No Drop)</Original>
+                <Japanese>底部ライト点灯消灯 (投下なし)</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Key_lightOnlyKey_description">
+                <Original>Used to switch the bottom auxiliary light.\nHowever, this is not realistic (Mavic uses a light signal to send a grenade drop command)</Original>
+                <Japanese>底部補助ライトを点灯消灯させるために使用。\nしかし、これは現実的ではありません (Mavicはライトのための信号を使用して手榴弾投下コマンドを送信します)</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_HUD_Mode_Flight">
+                <Original>N Mode</Original>
+                <Russian>Режим N</Russian>
+                <Japanese>N モード</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_HUD_Mode_None">
+                <Original>N/A</Original>
+                <Japanese>N/A</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_HUD_FlightStatus_Flying">
+                <Original>In Flight</Original>
+                <Russian>В Полете</Russian>
+                <Japanese>飛行中</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_HUD_FlightStatus_Ground">
+                <Original>On Ground</Original>
+                <Russian>На Земле</Russian>
+                <Japanese>接地</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_HUD_FlightStatus_weak">
+                <Original>Weak signal</Original>
+                <Japanese>通信状況不良</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_HUD_FlightStatus_notConnected">
+                <Original>not connected</Original>
+                <Japanese>通信切断</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_HUD_Meters">
+                <Original>m</Original>
+                <Russian>м</Russian>
+                <Japanese>m</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_HUD_Feet">
+                <Original>ft</Original>
+                <Japanese>ft</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_HUD_Yard">
+                <Original>yd</Original>
+                <Japanese>yd</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_HUD_Mile">
+                <Original>mi</Original>
+                <Japanese>mi</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_HUD_Heading">
+                <Original>HDG</Original>
+                <Japanese>HDG</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_HUD_Speed">
+                <Original>m/s</Original>
+                <Russian>м/с</Russian>
+                <Japanese>m/s</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_HUD_Speed_KMH">
+                <Original>km/h</Original>
+                <Japanese>km/h</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_HUD_Speed_MPH">
+                <Original>mph</Original>
+                <Japanese>mph</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_HUD_Speed_KPH">
+                <Original>kt</Original>
+                <Japanese>kt</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_HUD_Speed_FPS">
+                <Original>ft/s</Original>
+                <Japanese>ft/s</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_HUD_dropMessage">
+                <Original>Bottom auxiliary light on</Original>
+                <Russian>Нижняя подсветка вкл</Russian>
+                <Japanese>底部補助ライト オン</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_HUD_dropMessage_off">
+                <Original>Bottom auxiliary light off</Original>
+                <Russian>Нижняя подсветка вон</Russian>
+                <Japanese>底部補助ライト オフ</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Vehicle_Mavic3_displayName">
+                <Original>DJI Mavic 3E</Original>
+                <Japanese>DJI Mavic 3E</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Item_Mavic3_displayName">
+                <Original>DJI Mavic 3E</Original>
+                <Japanese>DJI Mavic 3E</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Item_Mavic3_Magazine_displayName">
+                <Original>DJI Mavic 3E</Original>
+                <Japanese>DJI Mavic 3E</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Item_Mavic3_description">
+                <Original>FPV Recon Drone&lt;br/&gt;Put on the ground to deploy it.</Original>
+                <Japanese>一人称偵察ドローン&lt;br/&gt;地面に置くことで展開可能。</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Vehicle_Mavic3T_displayName">
+                <Original>DJI Mavic 3T</Original>
+                <Japanese>DJI Mavic 3T</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Item_Mavic3T_displayName">
+                <Original>DJI Mavic 3T</Original>
+                <Japanese>DJI Mavic 3T</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Item_Mavic3T_Magazine_displayName">
+                <Original>DJI Mavic 3T</Original>
+                <Japanese>DJI Mavic 3T</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Item_Mavic3T_description">
+                <Original>FPV Recon Drone with Thermal Vision&lt;br/&gt;Put on the ground to deploy it.</Original>
+                <Japanese>サーマルビジョン付き一人称偵察ドローン&lt;br/&gt;地面に置くことで展開可能。</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Vehicle_Mavic3N_displayName">
+                <Original>DJI Mavic 3N</Original>
+                <Japanese>DJI Mavic 3N</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Item_Mavic3N_displayName">
+                <Original>DJI Mavic 3N</Original>
+                <Japanese>DJI Mavic 3N</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Item_Mavic3N_Magazine_displayName">
+                <Original>DJI Mavic 3N</Original>
+                <Japanese>DJI Mavic 3N</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Item_Mavic3N_description">
+                <Original>FPV Recon Drone with Night Vision&lt;br/&gt;Put on the ground to deploy it.</Original>
+                <Japanese>ナイトビジョン付き一人称偵察ドローン&lt;br/&gt;地面に置くことで展開可能。</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Vehicle_Mavic3X_displayName">
+                <Original>DJI Mavic 3X</Original>
+                <Japanese>DJI Mavic 3X</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Item_Mavic3X_displayName">
+                <Original>DJI Mavic 3X</Original>
+                <Japanese>DJI Mavic 3X</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Item_Mavic3X_Magazine_displayName">
+                <Original>DJI Mavic 3X</Original>
+                <Japanese>DJI Mavic 3X</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Item_Mavic3X_description">
+                <Original>FPV Recon Drone with Night and Thermal Vision&lt;br/&gt;Put on the ground to deploy it.</Original>
+                <Japanese>ナイトビジョン・サーマルビジョン付き一人称偵察ドローン&lt;br/&gt;地面に置くことで展開可能。</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_Vehicle_Mavic3W_displayName">
+                <Original>DJI Mavic 3 (Wreck)</Original>
+                <Japanese>DJI Mavic 3 (残骸)</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_UserAction_DisassembleUAV">
+                <Original>Put Mavic in inventory</Original>
+                <Japanese>Mavicをインベントリにしまう</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_UserAction_ResetCamera">
+                <Original>Reset Camera Position</Original>
+                <Japanese>カメラ位置リセット</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_UserAction_CollisionLightOff">
+                <Original>Collision Light Off</Original>
+                <Japanese>衝突防止灯 オフ</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_UserAction_CollisionLightOn">
+                <Original>Collision Light On</Original>
+                <Japanese>衝突防止灯 オン</Japanese>
+            </Key>
+            <Key ID="STR_Mavic_UserAction_ChangeBattery">
+                <Original>Change Battery</Original>
+                <Japanese>バッテリー交換</Japanese>
+            </Key>
+        </Container>
+    </Package>
+</Project>

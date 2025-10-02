@@ -32,31 +32,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -72,31 +72,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -112,31 +112,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -153,31 +153,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -193,31 +193,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -233,31 +233,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -274,31 +274,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -314,31 +314,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -354,31 +354,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -395,31 +395,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -435,31 +435,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -475,31 +475,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -516,31 +516,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -556,31 +556,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -596,31 +596,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -637,31 +637,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -677,31 +677,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -717,31 +717,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -758,31 +758,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -798,31 +798,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -838,31 +838,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -879,31 +879,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -919,31 +919,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -959,31 +959,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -1000,31 +1000,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -1040,31 +1040,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -1080,31 +1080,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -1121,31 +1121,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -1161,31 +1161,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -1201,31 +1201,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -1242,31 +1242,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -1282,31 +1282,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
@@ -1322,31 +1322,31 @@ class cfgWeapons
 				{
 					HitpointName = "HitChest";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Diaphragm
 				{
 					HitpointName = "HitDiaphragm";
 					armor = 25;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Abdomen
 				{
 					HitpointName = "HitAbdomen";
 					armor = 14;
-					PassThrough = 0.1;
+					PassThrough = 0.7;
 				};
 				class Pelvis
 				{
 					HitpointName = "HitPelvis";
 					armor = 8;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 				class Body
 				{
 					HitpointName = "HitBody";
 					armor = 10;
-					PassThrough = 1;
+					PassThrough = 0.7;
 				};
 			};
 		};
