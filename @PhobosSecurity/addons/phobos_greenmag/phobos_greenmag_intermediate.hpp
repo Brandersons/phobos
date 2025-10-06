@@ -1,56 +1,140 @@
-class phobos_greenmag_intermediate_1rnd: greenmag_core_1Rnd
+class Phobos_556_M855A1_pmag_w_blk : CA_Magazine
 {
-    displayName="[Phobos] 1 Round of intermediate Ammo";
-    picture="\z\greenmag\addons\main\data\127mm.paa";
-    scope=2;
-    scopeArsenal=2;
-    scopeCurator=2;
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
 };
-class phobos_greenmag_intermediate_10rnd: greenmag_core_10Rnd
+class Phobos_556_M855A1_pmag_w_tan : CA_Magazine
 {
-    displayName="[Phobos] 10 Rounds of intermediate Ammo";
-    greenmag_ammotype="greenmag_rf_comp_ammo_127x55_basic_1Rnd";
-    scope=2;
-    scopeArsenal=2;
-    scopeCurator=2;
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
 };
-class phobos_greenmag_intermediate_20rnd: greenmag_core_20Rnd
+class Phobos_556_M855A1_pmag_blk : CA_Magazine
 {
-    displayName="[Phobos] 20 Rounds of intermediate Ammo";
-    greenmag_ammotype="greenmag_rf_comp_ammo_127x55_basic_1Rnd";
-    scope=2;
-    scopeArsenal=2;
-    scopeCurator=2;
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
 };
-class phobos_greenmag_intermediate_30rnd: greenmag_core_30Rnd
+class Phobos_556_M855A1_pmag_tan : CA_Magazine
 {
-    displayName="[Phobos] 30 Rounds of intermediate Ammo";
-    greenmag_ammotype="greenmag_rf_comp_ammo_127x55_basic_1Rnd";
-    scope=2;
-    scopeArsenal=2;
-    scopeCurator=2;
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
 };
-class phobos_greenmag_intermediate_40rnd: greenmag_core_40Rnd
+class Phobos_556_MK262_pmag_w_blk : CA_Magazine
 {
-    displayName="[Phobos] 40 Rounds of intermediate Ammo";
-    greenmag_ammotype="greenmag_rf_comp_ammo_127x55_basic_1Rnd";
-    scope=2;
-    scopeArsenal=2;
-    scopeCurator=2;
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
 };
-class phobos_greenmag_intermediate_50rnd: greenmag_core_50Rnd
+class Phobos_556_MK262_pmag_w_tan : CA_Magazine
 {
-    displayName="[Phobos] 50 Rounds of intermediate Ammo";
-    greenmag_ammotype="greenmag_rf_comp_ammo_127x55_basic_1Rnd";
-    scope=2;
-    scopeArsenal=2;
-    scopeCurator=2;
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
 };
-class phobos_greenmag_intermediate_60rnd: greenmag_core_60Rnd
+class Phobos_556_MK262_pmag_blk : CA_Magazine
 {
-    displayName="[Phobos] 60 Rounds of intermediate Ammo";
-    greenmag_ammotype="greenmag_rf_comp_ammo_127x55_basic_1Rnd";
-    scope=2;
-    scopeArsenal=2;
-    scopeCurator=2;
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
+};
+class Phobos_556_MK262_pmag_tan : CA_Magazine
+{
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
+};
+class Phobos_556_berger77_pmag_w_blk : CA_Magazine
+{
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
+};
+class Phobos_556_berger77_pmag_w_tan : CA_Magazine
+{
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
+};
+class Phobos_556_berger77_pmag_blk : CA_Magazine
+{
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
+};
+class Phobos_556_berger77_pmag_tan : CA_Magazine
+{
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
+};
+class Phobos_556_M995_pmag_w_blk : CA_Magazine
+{
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
+};
+class Phobos_556_M995_pmag_w_tan : CA_Magazine
+{
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
+};
+class Phobos_556_M995_pmag_blk : CA_Magazine
+{
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
+};
+class Phobos_556_M995_pmag_tan : CA_Magazine
+{
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
+};
+class Phobos_556_318_pmag_w_blk : CA_Magazine
+{
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
+};
+class Phobos_556_318_pmag_w_tan : CA_Magazine
+{
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
+};
+class Phobos_556_318_pmag_blk : CA_Magazine
+{
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
+};
+class Phobos_556_318_pmag_tan : CA_Magazine
+{
+    greenmag_canSpeedload=1;
+    greenmag_needBelt=0;
+    greenmag_ammo="phobos_greenmag_intermediate_1rnd";
+    greenmag_basicammo="phobos_greenmag_intermediate_1rnd";
 };

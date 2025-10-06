@@ -107,9 +107,9 @@ class CfgEditorSubcategories
     {
         displayName = "[Phobos] Trucks";
     };
-    class phobos_faction_edsubcat_turrets
+    class phobos_faction_edsubcat_statics
     {
-        displayName = "[Phobos] Turrets";
+        displayName = "[Phobos] Statics";
     };
     class phobos_faction_edsubcat_utility
     {

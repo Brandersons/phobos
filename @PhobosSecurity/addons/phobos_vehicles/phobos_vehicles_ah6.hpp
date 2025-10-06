@@ -17,7 +17,7 @@ class phobos_vehicles_ah6m : RHS_MELB_AH6M
     tf_hasLRradio = 1;
     tf_isolatedAmount = 0.3;
     tf_RadioType = "TFAR_rt1523g";
-    tf_range = 20000;
+    tf_range = 200000;
     tfar_hasintercom = 1;
     hiddenSelections[] = {"camo1","d_SN"};
     hiddenSelectionsTextures[] =

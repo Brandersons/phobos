@@ -16,7 +16,7 @@ class phobos_vehicles_mh60_dap : vtx_MH60M_DAP_MLASS
     tf_hasLRradio = 1;
     tf_isolatedAmount = 0.3;
     tf_RadioType = "TFAR_rt1523g";
-    tf_range = 20000;
+    tf_range = 200000;
     tfar_hasintercom = 1;
     hiddenSelections[] = {"emmisive_overhead","emmisive_frontDash","emmisive_pedestal","emmisive_ralt","emmisive_altp","emmisive_alt","emmisive_ias","emmisive_hdg","MAP_MFD1","MAP_MFD2","MAP_MFD3","MAP_MFD4","MAP_OVERLAY1","MAP_OVERLAY2","MAP_OVERLAY3","MAP_OVERLAY4","Exterrior_Hull","Exterrior_Misc","Exterrior_Tail","markings","left_num_1","left_num_2","right_num_1","right_num_2","Fuel_Probe","Mlass","emmisive_goarnd","emmisive_hvr","emmisive_fms","emmisive_cpld","emmisive_vs"};
     hiddenSelectionsTextures[] =
@@ -242,6 +242,99 @@ class phobos_vehicles_mh60_dap : vtx_MH60M_DAP_MLASS
                     };
                 };
             };
+        };
+        class TransportCountermeasuresComponent
+        {
+        };
+        class VehicleSystemsDisplayManagerComponentLeft
+        {
+            class Components
+            {
+                class EmptyDisplay
+                {
+                    componentType = "EmptyDisplayComponent";
+                };
+                class MinimapDisplay
+                {
+                    componentType = "MinimapDisplayComponent";
+                    resource = "RscCustomInfoAirborneMiniMap";
+                };
+                class CrewDisplay
+                {
+                    componentType = "CrewDisplayComponent";
+                    resource = "RscCustomInfoCrew";
+                };
+                class SlingLoadDisplay
+                {
+                    componentType = "SlingLoadDisplayComponent";
+                    resource = "RscCustomInfoSlingLoad";
+                };
+                class UAVDisplay
+                {
+                    componentType = "UAVFeedDisplayComponent";
+                };
+                class VehicleDriverDisplay
+                {
+                    componentType = "TransportFeedDisplayComponent";
+                    source = "Driver";
+                };
+                class SensorDisplay
+                {
+                    componentType = "SensorsDisplayComponent";
+                    range[] = {4000,2000,16000,8000};
+                    resource = "RscCustomInfoSensors";
+                };
+            };
+            componentType = "VehicleSystemsDisplayManager";
+            left = 1;
+            defaultDisplay = "EmptyDisplay";
+            x = "(profilenamespace getvariable [""IGUI_GRID_CUSTOMINFOLEFT_X"",	(safezoneX + 0.5 * 			(			((safezoneW / safezoneH) min 1.2) / 40))])";
+            y = "(profilenamespace getvariable [""IGUI_GRID_CUSTOMINFOLEFT_Y"",	(safezoneY + safezoneH - 21 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])";
+        };
+        class VehicleSystemsDisplayManagerComponentRight
+        {
+            defaultDisplay = "SensorDisplay";
+            class Components
+            {
+                class EmptyDisplay
+                {
+                    componentType = "EmptyDisplayComponent";
+                };
+                class MinimapDisplay
+                {
+                    componentType = "MinimapDisplayComponent";
+                    resource = "RscCustomInfoAirborneMiniMap";
+                };
+                class CrewDisplay
+                {
+                    componentType = "CrewDisplayComponent";
+                    resource = "RscCustomInfoCrew";
+                };
+                class SlingLoadDisplay
+                {
+                    componentType = "SlingLoadDisplayComponent";
+                    resource = "RscCustomInfoSlingLoad";
+                };
+                class UAVDisplay
+                {
+                    componentType = "UAVFeedDisplayComponent";
+                };
+                class VehicleDriverDisplay
+                {
+                    componentType = "TransportFeedDisplayComponent";
+                    source = "Driver";
+                };
+                class SensorDisplay
+                {
+                    componentType = "SensorsDisplayComponent";
+                    range[] = {4000,2000,16000,8000};
+                    resource = "RscCustomInfoSensors";
+                };
+            };
+            componentType = "VehicleSystemsDisplayManager";
+            right = 1;
+            x = "(profilenamespace getvariable [""IGUI_GRID_CUSTOMINFORIGHT_X"",	((safezoneX + safezoneW) - (		(10 * 			(			((safezoneW / safezoneH) min 1.2) / 40)) + 0.5 * 			(			((safezoneW / safezoneH) min 1.2) / 40)))])";
+            y = "(profilenamespace getvariable [""IGUI_GRID_CUSTOMINFORIGHT_Y"",	(safezoneY + safezoneH - 21 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])";
         };
     };
 };

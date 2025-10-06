@@ -1,28 +1,28 @@
 class CfgPatches
 {
-    class bt_units
+    class phobos_units
     {
-        name = "bt_units";
+        name = "phobos_units";
         units[] =
         {
-            "bt_units_soldier_12a",
-            "bt_units_soldier_12b",
-            "bt_units_soldier_12c",
-            "bt_units_soldier_12d",
-            "bt_units_soldier_12marine",
-            "bt_units_soldier_12marksman",
-            "bt_units_soldier_12sig",
-            "bt_units_soldier_31a",
-            "bt_units_soldier_31b",
-            "bt_units_soldier_31gpmg",
-            "bt_units_soldier_31marine",
-            "bt_units_soldier_31marksman",
-            "bt_units_soldier_31medic",
-            "bt_units_soldier_31pointman",
-            "bt_units_soldier_31sig",
-            "bt_units_soldier_311ic",
-            "bt_units_soldier_312ic",
-            "bt_units_soldier_zeus"
+            "phobos_units_soldier_12a",
+            "phobos_units_soldier_12b",
+            "phobos_units_soldier_12c",
+            "phobos_units_soldier_12d",
+            "phobos_units_soldier_12marine",
+            "phobos_units_soldier_12marksman",
+            "phobos_units_soldier_12sig",
+            "phobos_units_soldier_31a",
+            "phobos_units_soldier_31b",
+            "phobos_units_soldier_31gpmg",
+            "phobos_units_soldier_31marine",
+            "phobos_units_soldier_31marksman",
+            "phobos_units_soldier_31medic",
+            "phobos_units_soldier_31pointman",
+            "phobos_units_soldier_31sig",
+            "phobos_units_soldier_311ic",
+            "phobos_units_soldier_312ic",
+            "phobos_units_soldier_zeus"
         };
         weapons[] =
         {
@@ -32,7 +32,7 @@ class CfgPatches
             "SCM_Fast_B_2"
         };
         requiredVersion = 0.1;
-        addonRootClass = "bt_core";
+        addonRootClass = "phobos_core";
         requiredAddons[] =
         {
             "bt_core",
@@ -45,7 +45,7 @@ class CfgVehicles
 {   
     // this is the base soldier class for all bt soldiers, do not change this unless necessary
     class B_Soldier_base_F;
-    class bt_units_soldier_base : B_Soldier_base_F
+    class phobos_units_soldier_base : B_Soldier_base_F
     {
         scope = 1;
         side = 1;
@@ -118,9 +118,9 @@ class CfgVehicles
     };
 
     // here is an example soldier class, copy and paste this and change the values to create a new soldier
-    // give your class a unique name using the format bt_units_soldier_<name>
+    // give your class a unique name using the format phobos_units_soldier_<name>
     // you will also have to update bt_qm_menu_dialog.hpp to add that loadout to the qm menu
-    class bt_units_soldier_example : bt_units_soldier_base
+    class phobos_units_soldier_example : phobos_units_soldier_base
     {
         // Set this to 2 to make it show in 3den, as this example is in the live mod it'll be set to 1 to hide it in 3den
         scope = 1;
@@ -261,28 +261,28 @@ class CfgVehicles
     };
 
     // player loadouts
-    #include "\bt_units\loadouts\12a.hpp"
-    #include "\bt_units\loadouts\12b.hpp"
-    #include "\bt_units\loadouts\12c.hpp"
-    #include "\bt_units\loadouts\12d.hpp"
-    #include "\bt_units\loadouts\12marine.hpp"
-    #include "\bt_units\loadouts\12marksman.hpp"
-    #include "\bt_units\loadouts\12sig.hpp"
-    #include "\bt_units\loadouts\31a.hpp"
-    #include "\bt_units\loadouts\31b.hpp"
-    #include "\bt_units\loadouts\31gpmg.hpp"
-    #include "\bt_units\loadouts\31marine.hpp"
-    #include "\bt_units\loadouts\31marksman.hpp"
-    #include "\bt_units\loadouts\31medic.hpp"
-    #include "\bt_units\loadouts\31pointman.hpp"
-    #include "\bt_units\loadouts\31sig.hpp"
-    #include "\bt_units\loadouts\311ic.hpp"
-    #include "\bt_units\loadouts\312ic.hpp"
-    #include "\bt_units\loadouts\zeus.hpp"
+    #include "\phobos_units\loadouts\12a.hpp"
+    #include "\phobos_units\loadouts\12b.hpp"
+    #include "\phobos_units\loadouts\12c.hpp"
+    #include "\phobos_units\loadouts\12d.hpp"
+    #include "\phobos_units\loadouts\12marine.hpp"
+    #include "\phobos_units\loadouts\12marksman.hpp"
+    #include "\phobos_units\loadouts\12sig.hpp"
+    #include "\phobos_units\loadouts\31a.hpp"
+    #include "\phobos_units\loadouts\31b.hpp"
+    #include "\phobos_units\loadouts\31gpmg.hpp"
+    #include "\phobos_units\loadouts\31marine.hpp"
+    #include "\phobos_units\loadouts\31marksman.hpp"
+    #include "\phobos_units\loadouts\31medic.hpp"
+    #include "\phobos_units\loadouts\31pointman.hpp"
+    #include "\phobos_units\loadouts\31sig.hpp"
+    #include "\phobos_units\loadouts\311ic.hpp"
+    #include "\phobos_units\loadouts\312ic.hpp"
+    #include "\phobos_units\loadouts\zeus.hpp"
 
     //npc loadouts
 
-    class bt_units_npc_welldeckcrew : bt_units_soldier_base
+    class phobos_units_npc_welldeckcrew : phobos_units_soldier_base
     {
         scope = 2;
         displayName = "Well Deck Crew";
@@ -307,7 +307,7 @@ class CfgVehicles
         items[]={};
         respawnItems[]={};
     };
-    class bt_units_npc_rifleman : bt_units_soldier_base
+    class phobos_units_npc_rifleman : phobos_units_soldier_base
     {
         scope = 2;
         displayName = "Rifleman";
@@ -357,28 +357,28 @@ class CfgGroups {
                     class Unit0
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_12a";
+                        vehicle = "phobos_units_soldier_12a";
                         rank = "LIEUTENANT";
                         position[] = {0, 0, 0};
                     };
                     class Unit1
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_12b";
+                        vehicle = "phobos_units_soldier_12b";
                         rank = "SERGEANT";
                         position[] = {0,-2,0};
                     };
                     class Unit2
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_12sig";
+                        vehicle = "phobos_units_soldier_12sig";
                         rank = "CORPORAL";
                         position[] = {0,-4,0};
                     };
                     class Unit3
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_31marine";
+                        vehicle = "phobos_units_soldier_31marine";
                         rank = "PRIVATE";
                         position[] = {0,-6,0};
                     };
@@ -396,28 +396,28 @@ class CfgGroups {
                     class Unit0
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_12c";
+                        vehicle = "phobos_units_soldier_12c";
                         rank = "SERGEANT";
                         position[] = {0, 0, 0};
                     };
                     class Unit1
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_12marine";
+                        vehicle = "phobos_units_soldier_12marine";
                         rank = "PRIVATE";
                         position[] = {0,-2,0};
                     };
                     class Unit2
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_12d";
+                        vehicle = "phobos_units_soldier_12d";
                         rank = "CORPORAL";
                         position[] = {0,-4,0};
                     };
                     class Unit3
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_31marine";
+                        vehicle = "phobos_units_soldier_31marine";
                         rank = "PRIVATE";
                         position[] = {0,-6,0};
                     };
@@ -435,28 +435,28 @@ class CfgGroups {
                     class Unit0
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_31a";
+                        vehicle = "phobos_units_soldier_31a";
                         rank = "LIEUTENANT";
                         position[] = {0, 0, 0};
                     };
                     class Unit1
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_31b";
+                        vehicle = "phobos_units_soldier_31b";
                         rank = "SERGEANT";
                         position[] = {0,-2,0};
                     };
                     class Unit2
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_31sig";
+                        vehicle = "phobos_units_soldier_31sig";
                         rank = "CORPORAL";
                         position[] = {0,-4,0};
                     };
                     class Unit3
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_31medic";
+                        vehicle = "phobos_units_soldier_31medic";
                         rank = "PRIVATE";
                         position[] = {0,-6,0};
                     };
@@ -474,42 +474,42 @@ class CfgGroups {
                     class Unit0
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_311ic";
+                        vehicle = "phobos_units_soldier_311ic";
                         rank = "SERGEANT";
                         position[] = {0, 0, 0};
                     };
                     class Unit1
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_31pointman";
+                        vehicle = "phobos_units_soldier_31pointman";
                         rank = "PRIVATE";
                         position[] = {0,-2,0};
                     };
                     class Unit2
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_31marine";
+                        vehicle = "phobos_units_soldier_31marine";
                         rank = "PRIVATE";
                         position[] = {0,-4,0};
                     };
                     class Unit3
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_312ic";
+                        vehicle = "phobos_units_soldier_312ic";
                         rank = "CORPORAL";
                         position[] = {0,-6,0};
                     };
                     class Unit4
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_31marine";
+                        vehicle = "phobos_units_soldier_31marine";
                         rank = "PRIVATE";
                         position[] = {0,-8,0};
                     };
                     class Unit5
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_31medic";
+                        vehicle = "phobos_units_soldier_31medic";
                         rank = "PRIVATE";
                         position[] = {0,-10,0};
                     };
@@ -527,42 +527,42 @@ class CfgGroups {
                     class Unit0
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_311ic";
+                        vehicle = "phobos_units_soldier_311ic";
                         rank = "SERGEANT";
                         position[] = {0, 0, 0};
                     };
                     class Unit1
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_31pointman";
+                        vehicle = "phobos_units_soldier_31pointman";
                         rank = "PRIVATE";
                         position[] = {0,-2,0};
                     };
                     class Unit2
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_31marine";
+                        vehicle = "phobos_units_soldier_31marine";
                         rank = "PRIVATE";
                         position[] = {0,-4,0};
                     };
                     class Unit3
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_312ic";
+                        vehicle = "phobos_units_soldier_312ic";
                         rank = "CORPORAL";
                         position[] = {0,-6,0};
                     };
                     class Unit4
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_31marine";
+                        vehicle = "phobos_units_soldier_31marine";
                         rank = "PRIVATE";
                         position[] = {0,-8,0};
                     };
                     class Unit5
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_31medic";
+                        vehicle = "phobos_units_soldier_31medic";
                         rank = "PRIVATE";
                         position[] = {0,-10,0};
                     };
@@ -580,42 +580,42 @@ class CfgGroups {
                     class Unit0
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_311ic";
+                        vehicle = "phobos_units_soldier_311ic";
                         rank = "SERGEANT";
                         position[] = {0, 0, 0};
                     };
                     class Unit1
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_31gpmg";
+                        vehicle = "phobos_units_soldier_31gpmg";
                         rank = "PRIVATE";
                         position[] = {0,-2,0};
                     };
                     class Unit2
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_31gpmg";
+                        vehicle = "phobos_units_soldier_31gpmg";
                         rank = "PRIVATE";
                         position[] = {0,-4,0};
                     };
                     class Unit3
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_312ic";
+                        vehicle = "phobos_units_soldier_312ic";
                         rank = "PRIVATE";
                         position[] = {0,-6,0};
                     };
                     class Unit4
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_31marksman";
+                        vehicle = "phobos_units_soldier_31marksman";
                         rank = "PRIVATE";
                         position[] = {0,-8,0};
                     };
                     class Unit5
                     {
                         side = 1;
-                        vehicle = "bt_units_soldier_31medic";
+                        vehicle = "phobos_units_soldier_31medic";
                         rank = "PRIVATE";
                         position[] = {0,-10,0};
                     };

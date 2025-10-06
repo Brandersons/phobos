@@ -17,7 +17,7 @@ class phobos_vehicles_v22 : UK3CB_AAF_B_Osprey_IDWS_HMG_G
     tf_hasLRradio = 1;
     tf_isolatedAmount = 0.3;
     tf_RadioType = "TFAR_rt1523g";
-    tf_range = 20000;
+    tf_range = 200000;
     tfar_hasintercom = 1;
     hiddenSelections[] = {"camo1","camo2","decals"};
     hiddenSelectionsTextures[] =
@@ -86,7 +86,7 @@ class phobos_vehicles_v22_cargo : UK3CB_AAF_B_Osprey_VIV_Transport_G
     tf_hasLRradio = 1;
     tf_isolatedAmount = 0.3;
     tf_RadioType = "TFAR_rt1523g";
-    tf_range = 20000;
+    tf_range = 200000;
     tfar_hasintercom = 1;
     hiddenSelections[] = {"camo1","camo2","decals"};
     hiddenSelectionsTextures[] =

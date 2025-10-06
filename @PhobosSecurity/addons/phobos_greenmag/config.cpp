@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class greenmag_rf_comp
+	class phobos_greenmag_compat
 	{
 		units[]={};
 		weapons[]=
@@ -35,29 +35,16 @@ class CfgWeapons
 	class greenmag_core_40Rnd;
 	class greenmag_core_50Rnd;
 	class greenmag_core_60Rnd;
+	#include "phobos_greenmag_ammoboxes.hpp"
+};
+
+class CfgMagazines
+{
+	class CA_Magazine;
 	// pistol caliber ammo
 	#include "phobos_greenmag_pistol.hpp"
 	// intermediate caliber ammo
 	#include "phobos_greenmag_intermediate.hpp"
 	// large caliber ammo
 	#include "phobos_greenmag_large.hpp"
-};
-
-class CfgMagazines
-{
-	class CA_Magazine;
-	class phobos_mag_57x28_ss190: CA_Magazine
-	{
-		greenmag_canSpeedload=1;
-		greenmag_needBelt=0;
-		greenmag_ammo="phobos_greenmag_pistol_1rnd";
-		greenmag_basicammo="phobos_greenmag_pistol_1rnd";
-	};
-	class phobos_mag_57x28_ss190_t: CA_Magazine
-	{
-		greenmag_canSpeedload=1;
-		greenmag_needBelt=0;
-		greenmag_ammo="phobos_greenmag_pistol_1rnd";
-		greenmag_basicammo="phobos_greenmag_pistol_1rnd";
-	};
 };
